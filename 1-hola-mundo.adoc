@@ -1,0 +1,30 @@
+= Asciidoc
+
+== Párrafos
+
+Lorem ipsum dolor asit atme consequeum.
+
+== Enlaces
+
+http://www.asciidoc.org 
+
+== Listas sin ordenar
+
+* elemento x
+* elemento xy
+* elemento z
+
+== Listas ordenadas
+
+. uno
+. dos
+. tres
+
+== Código fuente
+
+[,php]
+----
+function hacerAlgo($uno, $dos) {
+    echo $uno;
+}
+----
