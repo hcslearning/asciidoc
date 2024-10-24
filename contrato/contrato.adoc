@@ -1,8 +1,29 @@
-= Contrato de Prestación de Servicios
-Juan Pérez
+= Contrato de Arrendamiento
+Santiago Neira
 2024-10-23
 
-Este contrato de prestación de servicios se firma entre las siguientes partes:
+// Generales
+:fechaContrato: 25 de Octubre del 2024
+
+// Datos Propiedad
+
+
+// Datos Arrendador
+:arrendador: Juan Pérez
+:nacionalidadArrendador: chilena
+:estadoCivilArrendador: soltero
+:profesionArrendador: Ingeniero en Informática
+:rutArrendador: 12.345.678-5
+:domicilioArrendador: Calle Siempreviva 1234, Santiago
+:telefonoArrendador: 9 9999 9999
+
+// Datos Arrendatario
+:arrendatario: Romina Rojas
+
+
+// Datos Codeudor
+
+En Santiago de Chile, a {fechaContrato}, comparecen, por una parte, como arrendador, {arrendador}, {nacionalidadArrendador}, {estadoCivilArrendador}, {profesionArrendador}, cédula nacional de identidad número {rutArrendador}, domiciliado en {domicilioArrendador}, teléfono {telefonoArrendador} y por la otra parte, como arrendatario, {arrendatario}, {nacionalidadArrendatario}, {estadoCivilArrendatario}, {profesionArrendatario}, cédula nacional de identidad número {rutArrendatario}, teléfono {telefonoArrendatario}, los comparecientes mayores de edad quienes exponen que han convenido en el contrato de arriendo que consta de las declaraciones y estipulaciones siguientes:
 
 == 1. Partes del contrato
 
@@ -31,6 +52,19 @@ El cliente pagará al prestador de servicios la suma de $XXXX por cada mes de tr
 - ...
 
 == Firma
+
+
+image::lineafirma.svg[width=200,align=center]
+[.text-center]
+Juan Pérez +
+12.345.678-5
+
+
+image::lineafirma.svg[width=200,align=left]
+María Rojas
+12.345.678-5
+
+
 
 [cols="1,>1", frame=none, grid=none]
 |=== 
