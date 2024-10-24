@@ -1,0 +1,43 @@
+= Contrato de Prestación de Servicios
+Juan Pérez
+2024-10-23
+
+Este contrato de prestación de servicios se firma entre las siguientes partes:
+
+== 1. Partes del contrato
+
+*Prestador de servicios*: Juan Pérez, identificado con cédula XXXX, con domicilio en Calle Falsa 123.
+
+*Cliente*: Empresa ABC S.A., representada por María López, con domicilio en Avenida Principal 456.
+
+== 2. Objeto del contrato
+
+El prestador de servicios acuerda prestar los siguientes servicios al cliente:
+
+- Asesoría legal en derecho comercial.
+- Redacción de documentos legales.
+
+== 3. Duración del contrato
+
+Este contrato tendrá una duración de 12 meses a partir de la fecha de firma.
+
+== 4. Monto y forma de pago
+
+El cliente pagará al prestador de servicios la suma de $XXXX por cada mes de trabajo.
+
+== 5. Cláusulas adicionales
+
+- El presente contrato se firma por ambas partes.
+- ...
+
+== Firma
+
+[cols="1,>1", frame=none, grid=none]
+|=== 
+
+a| image::lineafirma.svg[width=200,align=left]
+a| image::lineafirma.svg[width=200,align=right]
+
+| Juan Pérez
+| María López
+|===

@@ -1,0 +1,61 @@
+# contrato-theme.yml
+extends: default
+
+# Configuración de la tipografía
+# font:
+#   catalog:
+    # NotoSerif:
+    #  normal: NotoSerif-Regular.ttf
+    #  bold: NotoSerif-Bold.ttf
+    #  italic: NotoSerif-Italic.ttf
+    #  bold_italic: NotoSerif-BoldItalic.ttf
+#  fallbacks: [NotoSerif]
+
+# Fuentes por defecto
+base:
+  #font_family: NotoSerif
+  font_size: 11
+
+# Márgenes y alineación del cuerpo del texto
+page:
+  size: Letter
+  layout: portrait
+  margin: [36, 36, 36, 36] # top, right, bottom, left
+  line_height: 1.5
+
+# Estilo de los títulos y secciones
+heading:
+  h1:
+    font_size: 16
+    font_color: 000000
+    align: center
+  h2:
+    font_size: 14
+    font_color: 000000
+    align: left
+  h3:
+    font_size: 12
+    font_color: 000000
+    align: left
+
+# Estilo para párrafos
+paragraph:
+  text_align: justify
+  font_size: 11
+
+# Estilo para tablas (si es necesario)
+table:
+  header:
+    background_color: 000000
+    font_color: FFFFFF
+    font_size: 12
+  body:
+    font_size: 11
+
+# Estilo para el pie de página
+footer:
+  height: 1.5cm
+  border_color: 999999
+  font_size: 10
+  recto_content: 'Página {page-number} de {total-pages}'
+  verso_content: 'Página {page-number} de {total-pages}'
