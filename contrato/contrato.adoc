@@ -2,10 +2,25 @@
 Santiago Neira
 2024-10-23
 
-// Generales
-:fechaContrato: 25 de Octubre del 2024
+// Arriendo
+:arriendoDesde: 01 de Noviembre del 2024 
+:valorRenta: 370.000
+:valorRentaText: trescientos setenta mil pesos
+:valorGarantia: 370.000
+:valorGarantiaText: trescientos setenta mil pesos
+:mesesReajusteRenta: 12 
+:hastaDiaPagoRenta: 5 
+:plazoContrato: 12 // en meses
+:plazoCartaCertificada: 60 // en días
+:ocupantes: arrendatario RUT rutArrendatario, Tania Andrea Arroyo Venegas  RUT~ 17.428.704-K y Sofía Isidora Rodríguez Arroyo RUT 27.383.261-0
+:multaProhibiciones: 5 Unidades Tributarias Mensuales (UTM)
 
-// Datos Propiedad
+
+// Propiedad
+:fechaContrato: 25 de Octubre del 2024
+:direccionArriendo: Castelnovi 1772, Cerro Navia, Santiago
+:fojasArriendo: 62057 Nº 93922, rol de avalúo 2401-21
+:anoConservadorArriendo: 2014
 
 
 // Datos Arrendador
@@ -15,13 +30,27 @@ Santiago Neira
 :profesionArrendador: Ingeniero en Informática
 :rutArrendador: 12.345.678-5
 :domicilioArrendador: Calle Siempreviva 1234, Santiago
-:telefonoArrendador: 9 9999 9999
+:telefonoArrendador: 988889999
+
 
 // Datos Arrendatario
 :arrendatario: Romina Rojas
+:nacionalidadArrendatario: chilena
+:estadoCivilArrendatario: soltero
+:profesionArrendatario: cartero
+:rutArrendatario: 12.345.678-5
+:domicilioArrendatario: _
+:telefonoArrendatario: 988889999
 
 
 // Datos Codeudor
+:codeudor: Ricardo Andrés Fuentes Ruiz
+:rutCodeudor: 16.421.555-2
+:nacionalidadCodeudor: chilena
+:estadoCivilCodeudor: soltero
+:profesionCodeudor: asistente
+:telefonoCodeudor: 9 9046 8403
+:direccionCodeudor: Portada del Este 222, Maipú
 
 En Santiago de Chile, a {fechaContrato}, comparecen, por una parte, como arrendador, {arrendador}, {nacionalidadArrendador}, {estadoCivilArrendador}, {profesionArrendador}, cédula nacional de identidad número {rutArrendador}, domiciliado en {domicilioArrendador}, teléfono {telefonoArrendador} y por la otra parte, como arrendatario, {arrendatario}, {nacionalidadArrendatario}, {estadoCivilArrendatario}, {profesionArrendatario}, cédula nacional de identidad número {rutArrendatario}, teléfono {telefonoArrendatario}, los comparecientes mayores de edad quienes exponen que han convenido en el contrato de arriendo que consta de las declaraciones y estipulaciones siguientes:
 
