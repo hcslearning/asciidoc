@@ -1,61 +1,37 @@
 # contrato-theme.yml
 extends: default
 
-# Configuración de la tipografía
-# font:
-#   catalog:
-    # NotoSerif:
-    #  normal: NotoSerif-Regular.ttf
-    #  bold: NotoSerif-Bold.ttf
-    #  italic: NotoSerif-Italic.ttf
-    #  bold_italic: NotoSerif-BoldItalic.ttf
-#  fallbacks: [NotoSerif]
-
 # Fuentes por defecto
-base:
-  #font_family: NotoSerif
-  font_size: 11
+base:  
+  font_size: 9
+  line_height: 1
 
 # Márgenes y alineación del cuerpo del texto
 page:
   size: Letter
   layout: portrait
-  margin: [36, 36, 36, 36] # top, right, bottom, left
-  line_height: 1.5
+  margin: [20, 30, 30, 30] # top, right, bottom, left
+  line-height: 1
 
 # Estilo de los títulos y secciones
 heading:
-  h1:
-    font_size: 16
-    font_color: 000000
-    align: center
-  h2:
-    font_size: 14
-    font_color: 000000
-    align: left
-  h3:
-    font_size: 12
-    font_color: 000000
-    align: left
+  h1-font-size: 12
+  h2-font-size: 9
+  h2-margin-bottom: 0
+  h2-display: inline-block
+
+block:
+  margin-bottom: 0
 
 # Estilo para párrafos
 paragraph:
-  text_align: justify
-  font_size: 11
+  text-align: justify  
+  line-height: 0.5   # Altura de línea
+  margin-top: 0      # Espacio superior
+  margin-bottom: 0   # Espacio inferior
 
-# Estilo para tablas (si es necesario)
-table:
-  header:
-    background_color: 000000
-    font_color: FFFFFF
-    font_size: 12
-  body:
-    font_size: 11
-
-# Estilo para el pie de página
-footer:
-  height: 1.5cm
-  border_color: 999999
-  font_size: 10
-  recto_content: 'Página {page-number} de {total-pages}'
-  verso_content: 'Página {page-number} de {total-pages}'
+image:
+  align: center
+  width: 200  
+  margin-top: 1500
+ 

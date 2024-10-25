@@ -2,26 +2,11 @@
 Santiago Neira
 2024-10-23
 
-// Arriendo
-:arriendoDesde: 01 de Noviembre del 2024 
-:valorRenta: 370.000
-:valorRentaText: trescientos setenta mil pesos
-:valorGarantia: 370.000
-:valorGarantiaText: trescientos setenta mil pesos
-:mesesReajusteRenta: 12 
-:hastaDiaPagoRenta: 5 
-:plazoContrato: 12 // en meses
-:plazoCartaCertificada: 60 // en días
-:ocupantes: arrendatario RUT rutArrendatario, Tania Andrea Arroyo Venegas  RUT~ 17.428.704-K y Sofía Isidora Rodríguez Arroyo RUT 27.383.261-0
-:multaProhibiciones: 5 Unidades Tributarias Mensuales (UTM)
-
-
 // Propiedad
 :fechaContrato: 25 de Octubre del 2024
 :direccionArriendo: Castelnovi 1772, Cerro Navia, Santiago
 :fojasArriendo: 62057 Nº 93922, rol de avalúo 2401-21
 :anoConservadorArriendo: 2014
-
 
 // Datos Arrendador
 :arrendador: Juan Pérez
@@ -35,16 +20,16 @@ Santiago Neira
 
 // Datos Arrendatario
 :arrendatario: Romina Rojas
+:rutArrendatario: 12.345.678-5
 :nacionalidadArrendatario: chilena
 :estadoCivilArrendatario: soltero
 :profesionArrendatario: cartero
-:rutArrendatario: 12.345.678-5
 :domicilioArrendatario: _
 :telefonoArrendatario: 988889999
 
 
 // Datos Codeudor
-:codeudor: Ricardo Andrés Fuentes Ruiz
+:codeudor: Josefa Martínez
 :rutCodeudor: 16.421.555-2
 :nacionalidadCodeudor: chilena
 :estadoCivilCodeudor: soltero
@@ -52,55 +37,111 @@ Santiago Neira
 :telefonoCodeudor: 9 9046 8403
 :direccionCodeudor: Portada del Este 222, Maipú
 
-En Santiago de Chile, a {fechaContrato}, comparecen, por una parte, como arrendador, {arrendador}, {nacionalidadArrendador}, {estadoCivilArrendador}, {profesionArrendador}, cédula nacional de identidad número {rutArrendador}, domiciliado en {domicilioArrendador}, teléfono {telefonoArrendador} y por la otra parte, como arrendatario, {arrendatario}, {nacionalidadArrendatario}, {estadoCivilArrendatario}, {profesionArrendatario}, cédula nacional de identidad número {rutArrendatario}, teléfono {telefonoArrendatario}, los comparecientes mayores de edad quienes exponen que han convenido en el contrato de arriendo que consta de las declaraciones y estipulaciones siguientes:
+// Arriendo
+:arriendoDesde: 01 de Noviembre del 2024 
+:bancoDeposito: Scotiabank
+:cuentaNumero: 984847122
+:valorRenta: 370.000
+:valorRentaText: trescientos setenta mil pesos
+:valorGarantia: 370.000
+:valorGarantiaText: trescientos setenta mil pesos
+:mesesReajusteRenta: 12 
+:hastaDiaPagoRenta: 5 
+:plazoContrato: 12 // en meses
+:plazoCartaCertificada: 60 // en días
+:ocupantes: arrendatario RUT rutArrendatario, Tania Andrea Arroyo Venegas  RUT~ 17.428.704-K y Sofía Isidora Rodríguez Arroyo RUT 27.383.261-0
+:multaProhibiciones: 5 Unidades Tributarias Mensuales (UTM)
+:ocupantes: {arrendatario} RUT {rutArrendatario} y {codeudor} RUT {rutCodeudor}
 
-== 1. Partes del contrato
+[.normal]
+En Santiago de Chile, a {fechaContrato}, comparecen, por una parte, como arrendador, *{arrendador}*, {nacionalidadArrendador}, {estadoCivilArrendador}, {profesionArrendador}, cédula nacional de identidad número {rutArrendador}, domiciliado en {domicilioArrendador}, teléfono {telefonoArrendador} y por la otra parte, como arrendatario, *{arrendatario}*, {nacionalidadArrendatario}, {estadoCivilArrendatario}, {profesionArrendatario}, cédula nacional de identidad número {rutArrendatario}, teléfono {telefonoArrendatario}, los comparecientes mayores de edad quienes exponen que han convenido en el contrato de arriendo que consta de las declaraciones y estipulaciones siguientes:
 
-*Prestador de servicios*: Juan Pérez, identificado con cédula XXXX, con domicilio en Calle Falsa 123.
+:sectnums:
+== INDIVIDUALIZACIÓN DEL INMUEBLE: 
+{arrendador} declara ser dueño del inmueble ubicado en {direccionArriendo}, bajo el título de dominio inscrito a fojas {fojasArriendo}, del Registro de Propriedad del Conservador de Bienes Raíces de Santiago, correspondiente al año {anoConservadorArriendo}.
 
-*Cliente*: Empresa ABC S.A., representada por María López, con domicilio en Avenida Principal 456.
+== ARRENDAMIENTO:
+Por el presente acto, {arrendador} da y entrega materialmente en arrendamiento al arrendatario, quien acepta, el inmueble ubicado en {direccionArriendo}, ya individualizado en cláusula precedente. El arrendatario conoce y acepta que en la parte delantera de la propiedad viva otra persona con total independencia.
 
-== 2. Objeto del contrato
+== DESTINACIÓN DEL INMUEBLE:
+El arrendatario solo podrá destinar el inmueble a uso habitacional.
 
-El prestador de servicios acuerda prestar los siguientes servicios al cliente:
+== RENTA:
+La renta del arrendamiento será de {valorRenta} ({valorRentaText}) y deberá pagarse en forma anticipada dentro de los {hastaDiaPagoRenta} primeros días de cada mes calendario mediante depósito en la cuenta corriente del Banco {bancoDeposito} número {cuentaNumero}, debiendo el arrendatario, remitir, al arrendador, copia del comprobante de transferencia, que de cuenta del pago de la renta de arrendamiento. En caso de mora o simple retardo en el pago de la renta de arrendamiento, se deberá pagar por el arrendatario, el interés máximo convencional.
 
-- Asesoría legal en derecho comercial.
-- Redacción de documentos legales.
+== REAJUSTE:
+La renta de arrendamiento se reajustará cada {mesesReajusteRenta} meses según la variación porcentual de los últimos 12 meses del IPC disponible en el sitio web del Servicio de Impuestos Internos.
 
-== 3. Duración del contrato
+== DURACIÓN:
+El arrendamiento regirá desde {arriendoDesde}, y su vigencia será de un año a contar de esta fecha. Este plazo se renovará en forma tácita, automática y sucesivamente en las mismas condiciones aquí pactadas, si ninguna de las partes manifiesta a la otra su voluntad de poner término al arrendamiento a través de un aviso. Dicho aviso se debe notificar mediante carta certificada al domicilio consignado por las partes en la comparecencia, con a lo menos 60 días de anticipación a la fecha de vencimiento del plazo pactado precedentemente o de una cualquiera de sus prórrogas. En caso que el arrendatario quisiera poner término al arriendo antes del plazo convenido, restituyendo al efecto la propiedad, deberá cancelar la renta del período faltante para la terminación del contrato de arrendamiento. Si pasado un año, la parte arrendadora quisiera ponerle término al contrato de arrendamiento en cualquier momento, deberá comunicarlo a través de carta certificada al domicilio del arrendatario a lo menos con 60 días de anticipación.
 
-Este contrato tendrá una duración de 12 meses a partir de la fecha de firma.
+== OBLIGACIÓN DE PAGO:
+El arrendatario estará obligado a pagar oportunamente los gastos comunes o servicios especiales que correspondan al inmueble, extracción domiciliaria de basura, los consumos de luz, agua potable, y otros que correspondan al inmueble, obligándose a exhibir los recibos al día, debidamente cancelados, cada vez que el arrendador así lo solicitare. Será asimismo, de cargo exclusivo del arrendatario, sin derecho a reembolso, cualquier gasto en que pudiere incurrir con ocasión del incumplimiento de órdenes o disposiciones legales o reglamentarias que pudiere impartir o dictar la autoridad administrativa, comunal o centralizada, en razón del uso a que se encuentra destinada la propiedad arrendada, o en razón a la naturaleza de la misma.
 
-== 4. Monto y forma de pago
+== PUBLICIDAD DE LA MOROSIDAD DEL ARRENDATARIO:
+El arrendatario y el codeudor facultan irrevocable al arrendador o al administrador del inmueble arrendado indistintamente, para que cualquiera de ellos pueda dar a conocer la morosidad en el pago de las rentas de arrendamiento, gastos comunes y consumos del inmueble arrendado, proporcionando dicha información a cualquier registro o banco de datos personales, como Servicios Equifax Chile Limitada, la Cámara de Comercio de Santiago, o la empresa que asuma estas funciones con el objeto de que sea divulgado, relevando el arrendamiento o la responsabilidad que se pueda derivar al efecto. El Arrendatario y el Codeudor eximen al Arrendador de cualquier responsabilidad que pudiere originarse a este respecto.
 
-El cliente pagará al prestador de servicios la suma de $XXXX por cada mes de trabajo.
+== REAJUSTE ESPECIAL: 
+En caso de no pago oportuno de la renta de arrendamiento y/o de los gastos comunes y servicios especiales, la suma se reajustará de acuerdo a la variación diaria de la U.F. entre la fecha que debió hacerse el pago efectivo. El retardo de diez días en el pago de la renta, de los gastos comunes o de los servicios especiales, dará derecho al arrendador para hacer cesar inmediatamente el arrendamiento en la firma prescrita por la Ley.
 
-== 5. Cláusulas adicionales
+== PROHIBICIONES:
+Queda prohibido subarrendar o ceder a cualquier título el presente contrato.
+Hacer variaciones en la propiedad arrendada, causar molestias a los vecinos, introducir materiales explosivos, inflamables o de mal olor en la propiedad arrendada.
+Destinar el inmueble a un objeto distinto al señalado en este contrato.
+Imputar la garantía al pago de la renta de arrendamiento u otros pagos, aún tratándose del últimos mes de arrendamiento.
+Si la propiedad es ocupada por más personas que las individualizadas en este contrato: {ocupantes}.
+La infracción de cualquiera de estas prohibiciones importará una multa equivalente a {multaProhibiciones}, a favor del arrendador.
 
-- El presente contrato se firma por ambas partes.
-- ...
+== OBLIGACIONES:
+Se obliga al arrendatario a mantener en perfecto estado de aseo y conservación la propiedad arrendada y a reparar a su costa cualquier desperfecto que experimente en sus cielos, paredes, vidrios, pinturas, instalaciones, etc. Respetar el reglamento de copropiedad. Restituir el inmueble inmediatamente que termine este contrato. Exhibir los recibos que acrediten el pago hasta el último día que ocupó el inmueble de los gastos de servicios y otros. Dar las facilidades necesarias para que el arrendador o quien lo represente pueda visitar el inmueble, y en caso que desee venderlo, a permitir su visita a lo menos tres días a la semana.
 
-== Firma
+== MEJORAS:
+El arrendador no tendrá obligación de hacer mejoras en el inmueble, las que efectúe el arrendatario, aún cuando sean necesarias, quedarán en beneficio de la propiedad desde que sean ejecutadas, sin que el arrendador deba pagar suma alguna por ellas, cualquiera sea su monto. El arrendador no responderá en caso alguno por robos que puedan ocurrir en la propiedad o por los perjuicios que pueda sufrir el arrendatario en caso de incendios, inundaciones, accidentes, explosiones, filtraciones o cualquier acto fortuito, acto de la naturaleza o fuerza mayor.
 
+== GARANTÍA:
+A fin de garantizar la conservación de la propiedad y su restitución en el mismo estado en que la recibe; la devolución de las especies y artefactos que se indican en el inventario; el pago de los perjuicios y deterioros que se acusen en la propiedad arrendada, sus servicios e instalaciones; y en general para responder del fiel cumplimiento de las estipulaciones de este contrato; el arrendatario entrega en garantía en este acto al arrendador la cantidad de \valorGarantia (\valorGarantiaText) que se obliga a restituir dentro de los treinta días siguientes a la entrega a su satisfacción de la propiedad arrendada, quedando autorizado desde ahora el arrendador para descontar de la garantía, el valor de los deterioros y de los gastos de consumo. La garantía se reajustará en la misma proporción en que se reajusta la renta.
 
-image::lineafirma.svg[width=200,align=center]
+== DOMICILIO:
+Para todos los efectos legales que deriven del otorgamiento del presente instrumento, los comparecientes fijan domicilio en la ciudad de Santiago y se someten a la jurisdicción de sus Tribunales.
+
+== CLÁUSULA PARA EL CODEUDOR:
+Presente a este acto {codeudor}, {nacionalidadCodeudor}, {estadoCivilCodeudor}, {profesionCodeudor}, cédula nacional de identidad número {rutCodeudor}, domiciliado en {direccionCodeudor}, mayor de edad y expone: que se constituye en codeudor solidario del arrendatario respecto de todas las obligaciones que para éste emanan del presente contrato, aceptando desde luego y sin previa notificación que las partes puedan introducirle, sean en cuanto al monto de la renta, plazo u otras estipulaciones. 
+
+== EJEMPLARES DE ESTE CONTRATO:
+El presente contrato se firma en dos ejemplares del mismo tenor y data, quedando uno en poder de cada una de las partes.
+
+&#160;
+
+image::lineafirma.svg[]
 [.text-center]
-Juan Pérez +
-12.345.678-5
+{arrendador} +
+{rutArrendador} +
+Arrendador
+
+&#160;
+
+image::lineafirma.svg[]
+[.text-center]
+{arrendatario} +
+{rutArrendatario} +
+Arrendatario
+
+&#160;
+
+image::lineafirma.svg[]
+[.text-center]
+{codeudor} +
+{rutCodeudor} +
+Codeudor
 
 
-image::lineafirma.svg[width=200,align=left]
-María Rojas
-12.345.678-5
-
-
-
-[cols="1,>1", frame=none, grid=none]
-|=== 
-
-a| image::lineafirma.svg[width=200,align=left]
-a| image::lineafirma.svg[width=200,align=right]
-
-| Juan Pérez
-| María López
-|===
+// firma en 2 columnas
+//[cols="1,>1", frame=none, grid=none]
+//|=== 
+//
+//a| image::lineafirma.svg[width=200,align=left]
+//a| image::lineafirma.svg[width=200,align=right]
+//
+//| Juan Pérez
+//| María López
+//|===
